@@ -1,0 +1,35 @@
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 分发/打包
+dist/
+build/
+*.egg-info/
+
+# 项目特定文件
+*.csv
+*.md
+!README.md
+!requirements.txt
+
+# 忽略ico目录
+ico/
+
+# 忽略生成的脚本文件
+build.bat
+
+# 其他临时文件
+*.tmp
+*.bak
+Thumbs.db 
